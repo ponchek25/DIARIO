@@ -20,7 +20,7 @@ $(document).ready(function() {
     
    var randomQuote = quoteArray[Math.floor(Math.random() * quoteArray.length)];
     document.getElementById("quote").innerHTML = randomQuote;
-    var by = " %23indiretasdobem via https://codepen.io/itska/full/PzwyxZ/";
+    var by = " https://codepen.io/itska/full/PzwyxZ/";
     document.getElementById("tweet").href = "https://pos.uel.br/profsocio/" + randomQuote + by;
 }
  
